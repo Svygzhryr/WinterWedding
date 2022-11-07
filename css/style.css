@@ -133,7 +133,7 @@ footer {
   margin: 2rem 0;
 }
 
-.main-subtitle::last-child {
+.main-subtitle:last-child {
   letter-spacing: 0;
 }
 
@@ -141,4 +141,53 @@ footer {
   font-family: 'Great Vibes', cursive;
   font-size: 15rem;
   color: #a6d8ff;
+}
+
+.main-text {
+  font-size: 2rem;
+  color: #a6d8ff;
+  width: 35%;
+}
+
+.main-photo {
+  position: absolute;
+  width: 34vw;
+  height: auto;
+  bottom: calc((1vw + 1vh) * 4);
+  right: calc((1vw + 1vh) * 5.5);
+}
+
+.main-button {
+  margin-top: 2rem;
+  background-color: #ecd478;
+  color: #0E2B46;
+  font-size: 2rem;
+  border: none;
+  font-weight: 400;
+  padding: 1rem 4rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  transition: all .2s;
+}
+
+.main-button:hover {
+  background-color: #a6d8ff;
+}
+
+footer {
+  margin-top: 5rem;
+}
+
+.footer-button {
+  background: none;
+  border: none;
+  color: #a6d8ff;
+  font-size: 4rem;
+  margin-right: 2rem;
+  transition: all .2s;
+}
+
+.footer-button:hover {
+  color: #ecd478;
+  cursor: pointer;
 }
