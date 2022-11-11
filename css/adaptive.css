@@ -69,3 +69,12 @@
     margin: 0 2rem;
   }
 }
+
+@media (max-width: 600px) {
+  .header-nav {
+    flex-wrap: wrap;
+  }
+  .main-title {
+    font-size: calc((1vh + 1vw) * 8);
+  }
+}
