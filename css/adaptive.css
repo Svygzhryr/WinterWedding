@@ -70,11 +70,62 @@
   }
 }
 
+@media (max-width: 850px) {
+  header {
+    flex-wrap: wrap;
+  }
+  .header-nav {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .header-form {
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .header-search {
+    width: 100%;
+  }
+  .nav-item {
+    font-size: 1.5rem;
+  }
+  .nav-item::after {
+    font-size: 3rem;
+    display: none;
+  }
+  .main-title {
+    font-size: 12rem;
+  }
+  .main-subtitle {
+    font-size: 3rem;
+  }
+  .main-text {
+    font-size: 1.5rem;
+  }
+  footer {
+    margin-top: 1rem;
+  }
+  .footer-button {
+    font-size: 5rem;
+  }
+}
+
 @media (max-width: 600px) {
   .header-nav {
     flex-wrap: wrap;
   }
   .main-title {
     font-size: calc((1vh + 1vw) * 8);
+  }
+}
+
+@media (max-width: 400px) {
+  .main-title {
+    font-size: 6rem;
+  }
+  .main-subtitle {
+    font-size: 2rem;
+  }
+  .nav-item {
+    margin-top: 1rem;
   }
 }
