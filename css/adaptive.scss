@@ -2,6 +2,20 @@ $gay: #a6d8ff;
 $gold: #ecd478;
 $dark: #0E2B46;
 
+@media (max-height: 850px) {
+    .main-title {
+    }
+
+    .main-subtitle {
+        margin-top: 0rem;
+        font-size: 3vh !important;
+
+        &:last-child {
+            margin-top: 1rem;
+        }
+    }
+}
+
 @media (max-width: 1300px) {
     .main-photo {
         bottom: 60%;
